@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="input-div">
+            <h1>Todo App</h1>
+            <input type="text" name="" id="todoItem" placeholder="Enter your todo">
+            <button onclick="addItem()"><i class="fa-solid fa-plus"></i>
+            </button>
+        </div>
+        <div class="list-div">
+            <ul id="list"></ul>
+        </div>
+        <button class="del-btn" onclick="delAll()">delete all</button>
+    </div>
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
